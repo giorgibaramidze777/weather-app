@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(100deg, rgb(117, 117, 117) 20%, rgb(58, 58, 58) 80%);
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 20px 15px 20px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding: 1px 5px;
+    cursor: pointer;
+}
+
+.ww {
+    background-color: black;
+    border-radius: 50%;
+    height: 80%;
+    width: 30%;
+}
+
+.search-bar {
+    background-color: #444444;
+    width: 911px;
+    height: 62px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#weather {
+    width: 300px;
+}
+
+#inpt {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    color: white;
+}
+
+#inpt::placeholder {
+    color: white;
+}
+
+#btn {
+    width: 292px;
+    height: 62px;
+    background-color: #4CBB17;
+    border-radius: 42px;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    text-align: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.yiyliyo {
+    width: 1177px;
+    height: 613px;
+    background-color: #444444;
+    border-radius: 30px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#gradus {
+    color: white;
+    font-size: 80px;
+}
+
+#like {
+    font-size: 32px;
+}
+
+#feels {
+    color: white;
+    font-size: 22px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#search {
+    height: 80%;
+    padding: 5px;
+    cursor: pointer;
+}
